@@ -1,22 +1,22 @@
 # DESCRIPTION
   
-  Install mac apps & some homebrew apps.
+Setup mac apps & some homebrew apps.
 
 # INSTALLATION
 
-  $ rake setup
+    $ rake setup
 
 # DEVELOPMENT
 
 Add cookbook to site-cookbooks.
   
-  $ rake cookbook:create name=test
+    $ rake cookbook:create name=test
 
 Validate cookbooks using foodritic.
 
-  $ rake cookbook:validate
+    $ rake cookbook:validate
 
 Add vendor cookbooks using Librarian-Chef.
 
-  $ vim Cheffile
-  $ cookbook:fetch_vendor_cookbooks
+    $ vim Cheffile
+    $ cookbook:fetch_vendor_cookbooks
