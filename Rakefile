@@ -15,8 +15,8 @@ namespace :cookbook do
     name = ENV["name"]
     sh "knife cookbook create #{name} -o site-cookbooks"
   end
-  desc "fetch depended cookbooks with librarian-chef"
-  task :fetch_dependencies do
+  desc "fetch vendor cookbooks with librarian-chef"
+  task :fetch_vendor_cookbooks do
     name = ENV["name"]
     sh "librarian-chef install"
   end
