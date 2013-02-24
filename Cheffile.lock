@@ -3,8 +3,10 @@ SITE
   specs:
     dmg (1.1.0)
     homebrew (1.3.2)
+    mac_os_x (1.4.2)
 
 DEPENDENCIES
   dmg (>= 0)
   homebrew (>= 0)
+  mac_os_x (>= 0)
 

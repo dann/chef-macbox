@@ -1,3 +1,4 @@
 site 'http://community.opscode.com/api/v1'
 cookbook 'dmg'
 cookbook 'homebrew'
+cookbook 'mac_os_x'
