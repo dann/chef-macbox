@@ -1,0 +1,37 @@
+{
+    "run_list": [
+        "recipe[homebrew]",
+        "recipe[dmg]",
+        "recipe[brew]",
+        "recipe[apps::chrome]",
+        "recipe[apps::dropbox]"
+    ],
+    "homebrew": {
+        "packages": [
+            "bvi",
+            "coreutils",
+            "gettext",
+            "git",
+            "git-flow",
+            "git-now",
+            "htop",
+            "jsl",
+            "lha",
+            "lv",
+            "lynx",
+            "multitail",
+            "neon",
+            "ngrep",
+            "nkf",
+            "nmap",
+            "pkg-config",
+            "tig",
+            "tmux",
+            "tree",
+            "valgrind",
+            "w3m",
+            "wget",
+            "zsh"
+        ]
+    }
+}
