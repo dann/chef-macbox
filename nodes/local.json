@@ -30,8 +30,7 @@
             "tree",
             "valgrind",
             "w3m",
-            "wget",
-            "zsh"
+            "wget"
         ]
     }
 }
