@@ -1,6 +1,11 @@
 # DESCRIPTION
-  
-Setup mac apps & some homebrew apps.
+
+Setup my development environment on Mac.
+
+# CAUTION
+
+This is *MY* personal recipes to setup my development environment on Mac.
+Check recipes out if you install this on your Mac.
 
 # INSTALLATION
 

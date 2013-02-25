@@ -1,4 +1,9 @@
 {
+   "user":{
+        "name": "dann",
+        "group" : "staff",
+        "home": "/Users/dann"
+    },
     "run_list": [
         "recipe[homebrew]",
         "recipe[dmg]",
@@ -7,7 +12,8 @@
         "recipe[apps::ccmenu]",
         "recipe[apps::chrome]",
         "recipe[apps::dropbox]",
-        "recipe[config::dock]"
+        "recipe[config::dock]",
+        "recipe[dotfiles]"
     ],
     "homebrew": {
         "packages": [
