@@ -20,8 +20,8 @@ bash "setup-dotfiles" do
   cwd node['user']['home']
   environment "HOME" => node['user']['home']
 
-  code <<-EOC
-    cd ~/.dotfiles
-    ./dotsetup.sh
-  EOC
+#  code <<-EOC
+#    cd ~/.dotfiles
+#    ./dotsetup.sh
+#  EOC
 end
