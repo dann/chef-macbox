@@ -2,13 +2,16 @@
     "run_list": [
         "recipe[homebrew]",
         "recipe[dmg]",
+        "recipe[mac_os_x]",
         "recipe[brew]",
         "recipe[apps::chrome]",
-        "recipe[apps::dropbox]"
+        "recipe[apps::dropbox]",
+        "recipe[config::dock]"
     ],
     "homebrew": {
         "packages": [
             "bvi",
+            "csshx",
             "coreutils",
             "gettext",
             "git",
@@ -21,14 +24,19 @@
             "lynx",
             "multitail",
             "neon",
+            "node",
             "ngrep",
             "nkf",
             "nmap",
             "pkg-config",
+            "rbenv",
+            "ruby-build",
+            "ssh-copy-id",
             "tig",
             "tmux",
             "tree",
             "valgrind",
+            "watch",
             "w3m",
             "wget"
         ]
