@@ -4,6 +4,7 @@
         "recipe[dmg]",
         "recipe[mac_os_x]",
         "recipe[brew]",
+        "recipe[apps::ccmenu]",
         "recipe[apps::chrome]",
         "recipe[apps::dropbox]",
         "recipe[config::dock]"
